@@ -82,4 +82,5 @@ $("checkAnswer").onclick=()=>{const selected=document.querySelector('input[name=
 function makePaper(){const ta=language==="ta";$("paperOutput").classList.remove("hidden");$("paperOutput").innerHTML=ta?`<h3>மாதிரி வகுப்புத் தேர்வு திட்டம்</h3><p>பாடம்: ____________　 வகுப்பு: ____________</p><ul><li>பகுதி A: 5 பல்தேர்வு வினாக்கள் — 5 மதிப்பெண்கள்</li><li>பகுதி B: 5 குறுவிடை வினாக்கள் — 10 மதிப்பெண்கள்</li><li>பகுதி C: 2 விரிவான விடை வினாக்கள் — 10 மதிப்பெண்கள்</li></ul><button class="btn primary" onclick="window.print()">அச்சிடு / PDF</button>`:`<h3>Sample class test outline</h3><p>Subject: ____________　 Class: ____________</p><ul><li>Section A: 5 MCQs — 5 marks</li><li>Section B: 5 short answers — 10 marks</li><li>Section C: 2 long answers — 10 marks</li></ul><button class="btn primary" onclick="window.print()">Print / Save as PDF</button>`}
 $("year").textContent=new Date().getFullYear();renderSubjects();
 </script>
-</body></html>
+</body>
+</html>
